@@ -15,7 +15,7 @@ app.use('/static', express.static(path.join(__dirname, 'public')))
 app.get('/', function(req, res) {
 
     // ejs render automatically looks in the views folder
-    res.render('app');
+    res.render('index');
 });
 
 app.listen(port, function() {
