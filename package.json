@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node ./components/app/app.js",
+    "start": "node ./src/components/app/app.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
